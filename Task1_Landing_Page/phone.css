@@ -1,0 +1,137 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    overflow: hidden;
+}
+#navbar ul li a{
+    font-size: 10px;
+    padding: 0px 5px;
+    /* padding-bottom: 2px; */
+}
+#logo img{
+    height: 100px;
+   width: 100px;
+}
+/* Home */
+#home{
+    height: 188px;
+    padding:3px 68px;
+    
+}
+/* #home::before{
+    height: 564px;
+} */
+#home p {
+    font-size: 10px;
+}
+/* services */
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services .box{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 10px;
+
+}
+#services .box img{
+    width: 200px;
+    height: 200px;
+}
+#services .box:hover{
+    border: 4px solid  rgb(160, 126, 126);
+    padding: 14px;
+    margin: 2px 0;
+    border-radius: 23px;
+    margin-top: 30px;
+    background-color:brown;
+   
+    }
+/* clents  */
+
+#clients{
+   flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+    height: 124px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+/* contact us */
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact-box{
+    width: 270px;
+}
+#contact-box form{
+    width:80%;
+}
+/* footer */
+footer{
+    height: 150px;
+    font-size: 1rem;
+}
+#footer a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+#footer a:hover{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
+/* Utilit */
+.h-primary{
+    font-size:30px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.btn:hover{
+    padding: 6px 10px;
+    border: 2px solid brown;
+    background-color: black;
+    color: brown;
+    font-size:20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bg_img{
+    opacity: 0.8;
+}
+.slide img{
+    border-radius: 50%;
+    opacity: 1;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    }
+    .slide img:hover{
+    width: 160px;
+    height: 160px;
+    }
+    
+    .nav1 button{
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: white;
+        margin-top: 70px;
+        position: relative;
+        font-size: 1.5rem;
+    } 

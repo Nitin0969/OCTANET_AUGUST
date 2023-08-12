@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital@0;1&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="">
+            <h3 style="color: white; font-size: 2rem;">Chef Food</h3>
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Our Dishes</a></li>
+            <li class="item"><a href="#contact">Booking</a></li>
+            <li class="item"><a href="#footer">Contact us</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h1 class="h-primary">Welcome</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iusto facilis nobis tenetur voluptate! Iure.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. .</p>
+       <a href="#menu"> <button class="btn">Order Now</button></a>
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="images/1.png" alt="">
+                <h2 class="h-secondry center">Food Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ut dolor iure sunt voluptas? Impedit unde asperiores soluta? Vero iusto praesentium reprehenderit modi nihil dolore qui exercitationem, nobis quia aut, commodi mollitia necessitatibus? Fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis eaque quasi aut ad fugiat voluptas labore ipsum quia officiis ullam, accusantium, explicabo facilis.</p>
+            </div>
+            <div class="box">
+                <img src="images/2.png" alt="">
+                <h2 class="h-secondry center">Food Catering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ut dolor iure sunt voluptas? Impedit unde asperiores soluta? Vero iusto praesentium reprehenderit modi nihil dolore qui exercitationem, nobis quia aut, commodi mollitia necessitatibus? Fugiat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Non alias sequi facilis ullam earum dignissimos ipsum soluta, aperiam eum perferendis sed quidem. Sed!</p>
+            </div>
+            <div class="box">
+                <img src="images/3.png" alt="">
+                <h2 class="h-secondry center">Home Delivery</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ut dolor iure sunt voluptas? Impedit unde asperiores soluta? Vero iusto praesentium reprehenderit modi nihil dolore qui exercitationem, nobis quia aut, commodi mollitia necessitatibus? Fugiat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse, harum laudantium et magni rem dolore ratione similique repellendus labore reprehenderit corporis suscipit?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <h1 class="h-primary center">Our Dishes</h1>
+    <section id="client-section">
+      
+        <div class="bg_img ">
+            <div class=" slide">
+                <img src="images/logo1.png" alt=""  >
+                <img src="images/logo2.jpg" alt="" >
+                <img src="images/logo3.jpeg" alt="" >
+                <img src="images/logo4.jpg" alt="" >
+            </div>
+            <div class=" slide">
+                <img src="images/logo6.jpeg" alt=""  >
+                <img src="images/logo5.jpg" alt="" >
+                <img src="images/logo7.jpeg" alt="" >
+                <img src="images/logo8.jpeg" alt="" >
+            </div>
+            <div class=" slide">
+                <img src="images/log10.jpeg" alt=""  >
+                <img src="images/logo9.jpg" alt="" >
+                <img src="images/logo3.jpeg" alt="" >
+                <img src="images/logo4.jpg" alt="" >
+            </div>
+           
+            <div class="nav1">
+                <button onclick="goprev()"><i class="fa-solid fa-arrow-left"></i></button>
+                <button onclick="gonext()"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <h1 class="h-primary center">Menu</h1>
+    <section id="menu">
+   
+    </section>
+
+    <h1 class="h-primary center">MAKE A RESERVATION</h1>
+    <section id="contact">
+      
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+               
+                <div class="form-group">
+                    <label for="name">Phone:</label>
+                    <input type="text" name="name" id="phone" placeholder="Enter your Phone-number">
+                </div>
+                <div class="form-group">
+                    <label for="name">No of Persons:</label>
+                    <input type="text" name="name" id="phone" placeholder="Enter no. of persons">
+                </div>
+                <div class="form-group">
+                    <label for="name">Address:</label>
+                    <textarea type="text" name="name" id="Message" placeholder="Enter your Address" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    
+
+    </section>
+ 
+    <footer id="footer">
+        <div class="center">
+            
+            <p><i class="fa-solid fa-phone"></i> +91 XXX-XXX-XXXX</p>
+            <p><i class="fa-solid fa-envelope"></i>&nbsp;www.Cheffood.com</p>
+            <p>Follow us on</p><br>
+           <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a><br><br><hr>
+            Copyright &copy; 2023 | All Rights Reserved<br>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
